@@ -9,7 +9,9 @@ const ExampleCode = () => {
   const handleFakeData = () => {
     setLoadingState(true);
     async function fetchData() {
-      let data = await axios.get("https://fakedata-bbcn.vercel.app/products");
+      let data = await axios.get(
+        "https://fakestoreapiserver.vercel.app/products"
+      );
       setFakeData(data.data[0]);
     }
     fetchData();

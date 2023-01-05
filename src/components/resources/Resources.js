@@ -13,7 +13,7 @@ const Resources = () => {
         <ul className="w-[440px] flex flex-col gap-2">
           <li className="text-base font-titleFont flex justify-between text-primeColor font-normal">
             <a
-              href="https://fakedata-bbcn.vercel.app/products"
+              href="https://fakestoreapiserver.vercel.app/products"
               target="_blank"
               rel="noreferrer"
             >
@@ -24,14 +24,20 @@ const Resources = () => {
             20 products
           </li>
           <li className="text-base font-titleFont flex justify-between text-primeColor font-normal">
-            <span className=" font-medium text-blue-600 hover:underline cursor-pointer underline-offset-2">
-              /cart
-            </span>
+            <a
+              href="https://fakestoreapiserver.vercel.app/cart"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className=" font-medium text-blue-600 hover:underline cursor-pointer underline-offset-2">
+                /cart
+              </span>
+            </a>
             20 cart item
           </li>
           <li className="text-base font-titleFont flex justify-between text-primeColor font-normal">
             <a
-              href="https://fakedata-bbcn.vercel.app/user"
+              href="https://fakestoreapiserver.vercel.app/users"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,7 +49,7 @@ const Resources = () => {
           </li>
           <li className="text-base font-titleFont flex justify-between text-primeColor font-normal">
             <a
-              href="https://fakedata-bbcn.vercel.app/user"
+              href="https://fakestoreapiserver.vercel.app/posts"
               target="_blank"
               rel="noreferrer"
             >
@@ -55,7 +61,7 @@ const Resources = () => {
           </li>
           <li className="text-base font-titleFont flex justify-between text-primeColor font-normal">
             <a
-              href="https://fakedata-bbcn.vercel.app/user"
+              href="https://fakestoreapiserver.vercel.app/comments"
               target="_blank"
               rel="noreferrer"
             >
@@ -67,7 +73,7 @@ const Resources = () => {
           </li>
           <li className="text-base font-titleFont flex justify-between text-primeColor font-normal">
             <a
-              href="https://fakedata-bbcn.vercel.app/user"
+              href="https://fakestoreapiserver.vercel.app/todos"
               target="_blank"
               rel="noreferrer"
             >
@@ -79,7 +85,7 @@ const Resources = () => {
           </li>
           <li className="text-base font-titleFont flex justify-between text-primeColor font-normal">
             <a
-              href="https://fakedata-bbcn.vercel.app/user"
+              href="https://fakestoreapiserver.vercel.app/photos"
               target="_blank"
               rel="noreferrer"
             >
